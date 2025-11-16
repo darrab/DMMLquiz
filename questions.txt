@@ -1,0 +1,728 @@
+Chapter 1: Introduction to Data Mining & Machine Learning (25 MCQs)
+What does KDD stand for in data mining?
+A. Key Data Distribution
+B. Knowledge Discovery in Databases
+C. Kernel Data Design
+D. Known Data Determination
+Answer: B
+
+Which of the following is NOT a type of machine learning?
+A. Supervised learning
+B. Unsupervised learning
+C. Reinforcement learning
+D. Deterministic learning
+Answer: D
+
+According to the lecture notes, what percentage of effort is typically spent on data cleaning and pre-processing?
+A. 20%
+B. 40%
+C. 60%
+D. 80%
+Answer: C
+
+Which phase of CRISP-DM involves splitting data into training and test sets?
+A. Business Understanding
+B. Data Understanding
+C. Data Preparation
+D. Modeling
+Answer: C
+Ethical concerns in data mining include all EXCEPT:
+A. Difficulty in anonymizing data
+B. Potential for discriminatory decisions
+C. High storage costs
+D. Misuse of sensitive attributes like zip code as proxies for race
+Answer: C
+Which of the following is a supervised learning task?
+A. Clustering
+B. Association rule mining
+C. Classification
+D. Principal Component Analysis
+Answer: C
+The Apriori algorithm is used for:
+A. Regression
+B. Classification
+C. Association rule mining
+D. Clustering
+Answer: C
+Which process model includes phases like Business Understanding, Data Preparation, and Deployment?
+A. KDD
+B. CRISP-DM
+C. ASUM
+D. Both B and C
+Answer: D
+In machine learning, a “model” is best described as:
+A. A database schema
+B. A mathematical representation of a real-world process
+C. A visualization tool
+D. A data cleaning pipeline
+Answer: B
+Which software tool is emphasized in this module for practical implementation?
+A. Excel
+B. SPSS
+C. Python (via Google Colab)
+D. Tableau
+Answer: C
+What is the primary output of classification learning?
+A. Numeric predictions
+B. Association rules
+C. Discrete class labels
+D. Cluster centroids
+Answer: C
+Which of the following tasks predicts a continuous numeric value?
+A. Classification
+B. Clustering
+C. Regression
+D. Association
+Answer: C
+Reinforcement learning is:
+A. Included in this module
+B. A type of supervised learning
+C. Not covered in this module
+D. Equivalent to clustering
+Answer: C
+“Who is permitted access to the data?” is a question related to:
+A. Algorithm efficiency
+B. Ethical issues
+C. Model interpretability
+D. Data storage
+Answer: B
+In the KDD process, data mining refers specifically to:
+A. Data cleaning
+B. The pattern discovery step
+C. Visualization
+D. Business planning
+Answer: B
+Which of the following is a key component of the data mining system architecture?
+A. Graphical user interface
+B. Knowledge base
+C. Data warehouse server
+D. All of the above
+Answer: D
+Numeric prediction is also known as:
+A. Clustering
+B. Classification
+C. Regression
+D. Dimensionality reduction
+Answer: C
+Which statement about clustering is TRUE?
+A. It is supervised
+B. It requires class labels
+C. It is unsupervised
+D. It always produces convex clusters
+Answer: C
+The main goal of association rule mining is to:
+A. Predict class labels
+B. Group similar instances
+C. Detect relationships among features
+D. Reduce dimensionality
+Answer: C
+Which of the following is a valid application of clustering?
+A. Customer segmentation
+B. Spam email detection
+C. House price prediction
+D. Medical diagnosis
+Answer: A
+According to the notes, 85% of Americans can be identified using:
+A. Name and phone number
+B. Zip code, birth date, and sex
+C. Social security number
+D. Email address
+Answer: B
+Which methodology is described as a “step-by-step guide” used by IBM?
+A. KDD
+B. CRISP-DM
+C. ASUM
+D. Agile
+Answer: C
+In supervised learning, the model is provided with:
+A. Only input features
+B. Input features and target outputs
+C. No data
+D. Cluster labels
+Answer: B
+Which algorithm is used in unsupervised learning?
+A. Decision Tree
+B. Naïve Bayes
+C. K-means
+D. Linear Regression
+Answer: C
+What is the role of metadata in data mining?
+A. To store raw data
+B. To provide background knowledge that can restrict the search space
+C. To visualize results
+D. To replace pre-processing
+Answer: B
+✅ Chapter 2: Exploratory Data Analysis, Data Types & Pre-processing (25 MCQs)
+EDA stands for:
+A. Enhanced Data Algorithm
+B. Exploratory Data Analysis
+C. Efficient Data Aggregation
+D. Experimental Data Acquisition
+Answer: B
+Which data type allows only equality comparisons and has no inherent order?
+A. Ordinal
+B. Interval
+C. Ratio
+D. Nominal
+Answer: D
+Temperature in degrees Celsius is an example of which data type?
+A. Nominal
+B. Ordinal
+C. Interval
+D. Ratio
+Answer: C
+Distance (e.g., in meters) is a:
+A. Nominal variable
+B. Ordinal variable
+C. Interval variable
+D. Ratio variable
+Answer: D
+Which encoding method is appropriate for nominal categorical data to avoid implying order?
+A. Ordinal encoding
+B. Label encoding
+C. One-hot encoding
+D. Standardization
+Answer: C
+What is the purpose of standardization?
+A. Scale features to [0, 1]
+B. Transform features to have mean = 0 and std = 1
+C. Remove outliers
+D. Encode categorical variables
+Answer: B
+MinMaxScaler performs:
+A. Standardization
+B. Normalization
+C. PCA
+D. Binarization
+Answer: B
+Outliers can be detected using:
+A. Boxplots
+B. Scatter plots
+C. Statistical methods
+D. All of the above
+Answer: D
+Which statement about outliers is TRUE according to the notes?
+A. Always remove them
+B. They should never be removed
+C. Remove only if they result from data errors
+D. They improve model accuracy
+Answer: C
+Univariate outlier detection examines:
+A. Combinations of features
+B. One feature at a time
+C. Only class labels
+D. Correlation matrices
+Answer: B
+Multivariate outlier detection can be performed using:
+A. DBSCAN
+B. Histograms
+C. Mean imputation
+D. One-hot encoding
+Answer: A
+The IQR (Interquartile Range) is used in:
+A. Normalization
+B. Standardization
+C. Boxplot outlier detection
+D. PCA
+Answer: C
+Missing values can represent:
+A. Equipment malfunction
+B. Changes in experimental design
+C. Collation of datasets
+D. All of the above
+Answer: D
+Replacing missing values with the mode is appropriate for:
+A. Continuous data
+B. Ratio data
+C. Categorical data
+D. Interval data
+Answer: C
+Which action is critical after pre-processing?
+A. Delete the original data
+B. Record all actions taken
+C. Increase model complexity
+D. Skip EDA
+Answer: B
+One-hot encoding may lead to:
+A. Faster training
+B. Reduced dimensionality
+C. High dimensionality
+D. Improved interpretability of encoded features
+Answer: C
+Which algorithm is sensitive to unscaled features?
+A. Decision Tree
+B. Naïve Bayes
+C. K-Nearest Neighbors (KNN)
+D. Apriori
+Answer: C
+For ordinal data like letter grades (A, B, C), the correct encoding approach is:
+A. One-hot encoding
+B. Manual mapping to integers preserving order
+C. Standardization
+D. Random assignment
+Answer: B
+PCA is used primarily for:
+A. Outlier detection
+B. Feature scaling
+C. Dimensionality reduction
+D. Handling missing values
+Answer: C
+Which pre-processing step is most important before applying K-means or SVM?
+A. One-hot encoding
+B. Standardization or normalization
+C. Deleting all outliers
+D. Converting to ordinal
+Answer: B
+The main steps of EDA include all EXCEPT:
+A. Data cleaning
+B. Statistical analysis
+C. Model deployment
+D. Data visualization
+Answer: C
+Which of the following is a descriptive statistic?
+A. Accuracy
+B. F1-score
+C. Standard deviation
+D. Precision
+Answer: C
+DBSCAN requires data to be:
+A. Normalized only
+B. Standardized
+C. One-hot encoded
+D. No scaling needed
+Answer: B
+Feature selection methods include:
+A. Filters
+B. Wrappers
+C. PCA
+D. All of the above
+Answer: D
+Filter methods are:
+A. Model-based
+B. Computationally heavy
+C. Univariate and fast
+D. Always optimal
+Answer: C
+✅ Chapter 3: Decision Trees (25 MCQs)
+In a decision tree, internal nodes represent:
+A. Class labels
+B. Predicted values
+C. Attribute tests
+D. Training instances
+Answer: C
+Leaf nodes in a classification tree output:
+A. Attribute splits
+B. Class probabilities or labels
+C. Gini scores
+D. Entropy values
+Answer: B
+Which impurity measure is used by the CART algorithm?
+A. Entropy
+B. Information Gain
+C. Gini Index
+D. Chi-square
+Answer: C
+Information Gain is calculated as:
+A. Entropy before split + Entropy after split
+B. Entropy before split – Entropy after split
+C. Gini before split – Gini after split
+D. Accuracy difference
+Answer: B
+Overfitting in decision trees can be reduced by:
+A. Increasing max_depth
+B. Decreasing min_samples_split
+C. Pruning
+D. Using more features
+Answer: C
+Pre-pruning may use:
+A. Chi-square test
+B. Cross-validation
+C. PCA
+D. Standardization
+Answer: A
+Post-pruning is preferred because:
+A. It is faster
+B. Pre-pruning may stop too early (e.g., on XOR problems)
+C. It avoids EDA
+D. It increases tree depth
+Answer: B
+A pure node has:
+A. Maximum entropy
+B. Zero entropy and zero Gini
+C. High variance
+D. Mixed classes
+Answer: B
+Which algorithm uses Information Gain with entropy?
+A. CART
+B. C4.5
+C. K-means
+D. Naïve Bayes
+Answer: B
+Decision trees are:
+A. Parametric models
+B. Non-parametric models
+C. Linear models
+D. Probabilistic graphical models
+Answer: B
+In regression trees, leaf nodes predict:
+A. Mode
+B. Median
+C. Mean
+D. Maximum
+Answer: C
+Estimating class probabilities in a decision tree involves:
+A. Counting support vectors
+B. Using the ratio of class instances in the leaf node
+C. Applying Laplace smoothing
+D. Calculating Euclidean distance
+Answer: B
+Hyperparameter min_samples_leaf controls:
+A. Maximum tree depth
+B. Minimum samples required to split a node
+C. Minimum samples in a leaf
+D. Number of features
+Answer: C
+Which is a disadvantage of decision trees?
+A. They require feature scaling
+B. They are sensitive to rotation of data
+C. They cannot handle numeric data
+D. They are slow at prediction
+Answer: B
+The CART algorithm for regression minimizes:
+A. Entropy
+B. Gini
+C. Mean Squared Error (MSE)
+D. Information Gain
+Answer: C
+Subtree replacement in pruning involves:
+A. Removing a subtree and replacing it with a leaf
+B. Adding new branches
+C. Increasing depth
+D. Standardizing data
+Answer: A
+Which metric is maximized when all classes are equally likely?
+A. Accuracy
+B. Entropy
+C. Precision
+D. F1-score
+Answer: B
+Attributes with many values (e.g., ID codes) cause:
+A. Underfitting
+B. Bias in Information Gain (overfitting)
+C. Better generalization
+D. Faster training
+Answer: B
+The time complexity of prediction in a decision tree is:
+A. O(n)
+B. O(log m) where m = training instances
+C. O(n²)
+D. O(k) where k = features
+Answer: B
+Decision boundaries in decision trees are:
+A. Linear and smooth
+B. Perpendicular to axes
+C. Circular
+D. Polynomial
+Answer: B
+Greedy training in decision trees means:
+A. Global optimum is guaranteed
+B. Optimal local split is chosen at each step
+C. All splits are evaluated together
+D. Training is skipped
+Answer: B
+What does the multistage property of entropy imply?
+A. Decisions can be made in multiple stages
+B. Entropy must be zero
+C. Only one split is allowed
+D. Gini is preferred
+Answer: A
+Which hyperparameter helps prevent overfitting?
+A. max_features
+B. max_depth
+C. random_state
+D. n_estimators
+Answer: B
+Decision trees can handle:
+A. Only numeric data
+B. Only categorical data
+C. Both nominal and numeric features
+D. Only text data
+Answer: C
+Early stopping is a form of:
+A. Post-pruning
+B. Pre-pruning
+C. Standardization
+D. Feature selection
+Answer: B
+✅ Chapter 4: Probabilistic Classification & SVM (25 MCQs)
+Naïve Bayes assumes that features are:
+A. Highly correlated
+B. Conditionally independent given the class
+C. Normally distributed
+D. Linearly separable
+Answer: B
+The “zero-frequency problem” in Naïve Bayes is solved using:
+A. Standardization
+B. Laplace smoothing
+C. PCA
+D. One-hot encoding
+Answer: B
+For numeric attributes, Naïve Bayes typically assumes a:
+A. Uniform distribution
+B. Poisson distribution
+C. Gaussian distribution
+D. Binomial distribution
+Answer: C
+The 1R classifier selects the attribute with:
+A. Highest information gain
+B. Lowest classification error
+C. Most unique values
+D. Highest Gini
+Answer: B
+In SVM, the optimal decision boundary is called a:
+A. Decision stump
+B. Hyperplane
+C. Cluster centroid
+D. Probability threshold
+Answer: B
+Support vectors are:
+A. All training points
+B. Points closest to the hyperplane
+C. Outliers
+D. Centroids
+Answer: B
+Which kernel allows SVM to handle non-linear data?
+A. Linear
+B. Identity
+C. RBF (Radial Basis Function)
+D. Constant
+Answer: C
+Naïve Bayes often works well even when independence is violated because:
+A. It uses deep learning
+B. It only needs to assign the highest probability to the correct class
+C. It ignores probabilities
+D. It uses SVM internally
+Answer: B
+Probability densities in Naïve Bayes for numeric data:
+A. Must be ≤ 1
+B. Can be > 1
+C. Are always integers
+D. Are replaced by counts
+Answer: B
+In 1R, missing values are treated as:
+A. Errors
+B. A separate attribute value
+C. Mean values
+D. Ignored
+Answer: B
+Which statement about SVM is TRUE?
+A. It does not require feature scaling
+B. It is sensitive to outliers
+C. It always uses linear kernels
+D. It cannot handle high dimensions
+Answer: B
+Kernel methods embed data into a vector space to:
+A. Reduce training time
+B. Use linear methods on non-linear patterns
+C. Replace decision trees
+D. Avoid pre-processing
+Answer: B
+In Naïve Bayes, missing attributes during classification are:
+A. Replaced with zero
+B. Omitted from calculation
+C. Dropped from the dataset
+D. Imputed with mean
+Answer: B
+The likelihood in Naïve Bayes is converted to probability using:
+A. Min-max scaling
+B. Normalization (division by total likelihood)
+C. Standardization
+D. Log transformation
+Answer: B
+SVM is resistant to:
+A. Underfitting
+B. The curse of dimensionality
+C. Small datasets
+D. Linearly separable data
+Answer: B
+Which algorithm is simplest but surprisingly effective?
+A. SVM
+B. 1R
+C. K-means
+D. PCA
+Answer: B
+Laplace smoothing adds:
+A. 1 to every attribute-class count
+B. Noise to data
+C. New features
+D. Outliers
+Answer: A
+For discretizing numeric attributes in 1R, breakpoints are placed where:
+A. Standard deviation is max
+B. Class changes
+C. Mean is zero
+D. Entropy is max
+Answer: B
+SVM optimization aims to:
+A. Minimize classification error
+B. Maximize margin between classes
+C. Minimize tree depth
+D. Maximize likelihood
+Answer: B
+Which is NOT a Naïve Bayes assumption?
+A. Feature independence
+B. Equal feature importance
+C. Gaussian distribution for numeric data
+D. Linear decision boundary
+Answer: D
+In the weather dataset example, P(“yes” | E) is calculated using:
+A. Euclidean distance
+B. Product of conditional probabilities
+C. Gini index
+D. K-means clustering
+Answer: B
+Why is standardization recommended before SVM?
+A. SVM uses distance-based calculations
+B. It improves interpretability
+C. It reduces overfitting
+D. It handles missing values
+Answer: A
+The 1R rule for “Outlook = Sunny” in the weather data predicts:
+A. Yes
+B. No
+C. Maybe
+D. Unknown
+Answer: B (2 yes, 3 no → majority is No)
+Naïve Bayes handles redundant attributes poorly because:
+A. It doubles probabilities
+B. Independence assumption is further violated
+C. It crashes
+D. It ignores them
+Answer: B
+Kernel functions in SVM:
+A. Must be linear
+B. Can incorporate domain knowledge
+C. Are not modular
+D. Reduce accuracy
+Answer: B
+✅ Chapter 5: Clustering (20 MCQs)
+Clustering is a form of:
+A. Supervised learning
+B. Unsupervised learning
+C. Reinforcement learning
+D. Semi-supervised learning
+Answer: B
+K-means minimizes:
+A. Entropy
+B. Within-cluster sum of squares
+C. Gini index
+D. Classification error
+Answer: B
+Which algorithm can find clusters of arbitrary shape?
+A. K-means
+B. K-medoids
+C. DBSCAN
+D. Hierarchical (single-link)
+Answer: C
+In DBSCAN, a core point has:
+A. No neighbors
+B. ≥ MinPts within ε radius
+C. Exactly 2 neighbors
+D. Highest feature value
+Answer: B
+The three point types in DBSCAN are:
+A. Centroid, edge, noise
+B. Core, border, outlier
+C. Root, leaf, branch
+D. Mean, median, mode
+Answer: B
+Euclidean distance is used for:
+A. Binary data
+B. Interval-scaled numeric data
+C. Nominal data
+D. Ordinal rankings
+Answer: B
+Which clustering method does NOT require specifying k?
+A. K-means
+B. K-medoids
+C. DBSCAN
+D. All require k
+Answer: C
+Agglomerative clustering is:
+A. Top-down
+B. Bottom-up
+C. Density-based
+D. Model-based
+Answer: B
+K-means is weak at handling:
+A. Numeric data
+B. Non-convex clusters
+C. Large datasets
+D. Standardized data
+Answer: B
+The Jaccard coefficient is for:
+A. Continuous variables
+B. Asymmetric binary variables
+C. Ordinal variables
+D. Time-series
+Answer: B
+For nominal variables, dissimilarity can be computed as:
+A. (p – m) / p
+B. Euclidean distance
+C. Pearson correlation
+D. Gini
+Answer: A
+Ordinal variables can be mapped to [0,1] using:
+A. z = (rank – 1) / (M – 1)
+B. MinMaxScaler
+C. One-hot encoding
+D. Standardization
+Answer: A
+K-means time complexity is approximately:
+A. O(n)
+B. O(tkn)
+C. O(n²)
+D. O(log n)
+Answer: B
+A dendrogram is used in:
+A. K-means
+B. DBSCAN
+C. Hierarchical clustering
+D. Naïve Bayes
+Answer: C
+BIRCH uses a:
+A. Decision tree
+B. CF-tree
+C. Support vector
+D. Bayesian network
+Answer: B
+DBSCAN fails when:
+A. Clusters have varying densities
+B. Data is standardized
+C. MinPts is too low
+D. All points are core
+Answer: A
+In clustering, good clusters have:
+A. Low intra-cluster similarity
+B. High inter-cluster similarity
+C. High intra-cluster and low inter-cluster similarity
+D. Random structure
+Answer: C
+K-modes is used for:
+A. Numeric data
+B. Categorical data
+C. Mixed data
+D. Time-series
+Answer: B
+The mean absolute deviation (MAD) is used to:
+A. Compute Euclidean distance
+B. Standardize interval-scaled data
+C. Encode nominal data
+D. Prune trees
+Answer: B
+Which is a requirement for clustering algorithms?
+A. Must handle noise and outliers
+B. Must assume spherical clusters
+C. Must use Euclidean distance
+D. Must specify k
+Answer: A
