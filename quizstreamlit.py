@@ -2148,15 +2148,15 @@ QUESTIONS = [
 
 # For demonstration, we'll duplicate to reach ~30 questions.
 # In practice, include all 120 using the same format.
-while len(QUESTIONS) < 120:
+while len(QUESTIONS) < 230:
     QUESTIONS.append(QUESTIONS[len(QUESTIONS) % 30])
 
 # ===========================================
 # STREAMLIT APP
 # ===========================================
 def main():
-    st.set_page_config(page_title="🧠 Data Mining & ML Quiz", layout="centered")
-    st.title("🧠 Data Mining & Machine Learning Quiz")
+    st.set_page_config(page_title="Data Mining & ML Quiz", layout="centered")
+    st.title("Data Mining & Machine Learning Quiz")
     st.markdown("Based on Lecture Notes – Test Your Knowledge!")
 
     total = len(QUESTIONS)
@@ -2220,10 +2220,11 @@ def main():
                 st.balloons()
                 st.success("Excellent work! 🌟")
             elif percentage >= 60:
-                st.info("Good job! Keep studying. 📚")
+                st.info("Good job! Keep studying.")
             else:
                 st.warning("Review the material and try again! 💪")
 
 if __name__ == "__main__":
     main()
+
 
