@@ -110,16 +110,6 @@ QUESTIONS = [
         "answer": "B"
     },
     {
-        "question": "According to the lecture, 85% of Americans can be identified using:",
-        "options": [
-            "Name, phone number, and email",
-            "Social security number and address",
-            "Zip code, birth date, and sex",
-            "IP address and device ID"
-        ],
-        "answer": "C"
-    },
-    {
         "question": "Which methodology is described as a 'step-by-step guide' used by IBM?",
         "options": [
             "KDD",
@@ -673,16 +663,6 @@ QUESTIONS = [
             "Linear decision boundary"
         ],
         "answer": "D"
-    },
-    {
-        "question": "In the weather dataset, P('yes' | evidence) is calculated using:",
-        "options": [
-            "Euclidean distance",
-            "Product of conditional probabilities",
-            "Gini index",
-            "K-means clustering"
-        ],
-        "answer": "B"
     },
     {
         "question": "Why is standardization recommended before SVM?",
@@ -1825,11 +1805,6 @@ QUESTIONS = [
         "answer": "B"
     },
     {
-        "question": "What percentage of Americans are identifiable by zip, birth date, and sex?",
-        "options": ["50%", "65%", "85%", "95%"],
-        "answer": "C"
-    },
-    {
         "question": "Which is NOT a CRISP-DM phase?",
         "options": [
             "Business Understanding",
@@ -2226,5 +2201,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
